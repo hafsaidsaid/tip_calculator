@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+}
+
+body .tipContainer {
+    width: 600px;
+    max-width: 90%;
+    margin-top: 100px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00000050;
+}
+
+.tipContainer h1 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.tipContainer form {
+    margin-top: 20px;
+}
+
+.tipContainer form label:first-of-type {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tipContainer form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+}
+
+
+.tipContainer button.calcBtn {
+    background-color: #45A049;
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.tipContainer .total strong {
+    font-size: 20px;
+}
